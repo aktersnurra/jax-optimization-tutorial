@@ -9,6 +9,7 @@ python = "^3.9"
 jupyter = "^1.0.0"
 jaxlib = {url = "https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.2+cuda11.cudnn82-cp39-none-manylinux2010_x86_64.whl"}
 jax = "^0.3.4"
+matplotlib = "^3.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
