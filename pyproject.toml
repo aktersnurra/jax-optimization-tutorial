@@ -6,9 +6,9 @@ authors = ["Gustaf Rydholm <gustaf.rydholm@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-jax = "^0.3.4"
 jupyter = "^1.0.0"
-jaxlib = "^0.3.2"
+jaxlib = {url = "https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.2+cuda11.cudnn82-cp39-none-manylinux2010_x86_64.whl"}
+jax = "^0.3.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
